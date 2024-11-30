@@ -17,14 +17,7 @@ namespace Tyuiu.MasalimovtrTR.Sprint4.Task0.V1
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* КАРТИНКА                                                                *");
-            string executablePath = AppContext.BaseDirectory;
-            string imagePath = Path.Combine(executablePath, "Task0V1.png"); ;
-            Process.Start(new ProcessStartInfo
-            {
-                FileName = imagePath,
-                UseShellExecute = true
-            }
-            );
+            
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Результат:");
             DataService ds = new DataService();
